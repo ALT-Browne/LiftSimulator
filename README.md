@@ -58,6 +58,18 @@ To get a local copy up and running, follow these steps.
    npm install
    ```
 
+5. Run the API project
+   ```sh
+   dotnet run
+   ```
+
+6. Run the Client project
+   ```sh
+   npm run dev
+   ```
+
+7. Navigate to the url shown in the terminal
+
 <p align="right">(<a href="#lift-simulator">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
