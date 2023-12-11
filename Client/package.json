@@ -11,13 +11,10 @@
   },
   "dependencies": {
     "@fontsource/roboto": "^5.0.8",
-    "@jaredreisinger/react-crossword": "^5.2.0",
     "react": "^18.2.0",
-    "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.11.0",
-    "react-router-dom": "^6.18.0",
-    "react-select": "^5.8.0"
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
