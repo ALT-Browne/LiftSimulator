@@ -1,0 +1,660 @@
+* {
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+}
+
+.lift-animation-wrapper {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        background-color: none;
+
+}
+
+.floors-lift-info-container {
+        display: flex;
+        width: 90%;
+        align-items: start;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: 100px;
+        background-color: none;
+}
+
+.people-floors-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        background-color: none;
+}
+
+.lift {
+        width: 50px;
+        min-width: 50px;
+        height: 100px;
+        border-radius: 15px;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+        transition: margin 1s linear;
+}
+
+/* start Floors*/
+.lift.floor-2-0 {
+        margin-top: 100px;
+}
+
+.lift.floor-2-1 {
+        margin-top: 0px;
+}
+
+
+
+.lift.floor-3-0 {
+        margin-top: 200px;
+}
+
+.lift.floor-3-1 {
+        margin-top: 100px;
+}
+
+.lift.floor-3-2 {
+        margin-top: 0px;
+}
+
+
+
+.lift.floor-4-0 {
+        margin-top: 300px;
+}
+
+.lift.floor-4-1 {
+        margin-top: 200px;
+}
+
+.lift.floor-4-2 {
+        margin-top: 100px;
+}
+
+.lift.floor-4-3 {
+        margin-top: 0px;
+}
+
+
+
+.lift.floor-5-0 {
+        margin-top: 400px;
+}
+
+.lift.floor-5-1 {
+        margin-top: 300px;
+}
+
+.lift.floor-5-2 {
+        margin-top: 200px;
+}
+
+.lift.floor-5-3 {
+        margin-top: 100px;
+}
+
+.lift.floor-5-4 {
+        margin-top: 0px;
+}
+
+
+
+.lift.floor-6-0 {
+        margin-top: 500px;
+}
+
+.lift.floor-6-1 {
+        margin-top: 400px;
+}
+
+.lift.floor-6-2 {
+        margin-top: 300px;
+}
+
+.lift.floor-6-3 {
+        margin-top: 200px;
+}
+
+.lift.floor-6-4 {
+        margin-top: 100px;
+}
+
+.lift.floor-6-5 {
+        margin-top: 0px;
+}
+
+
+
+
+
+.lift.floor-7-0 {
+        margin-top: 600px;
+}
+
+.lift.floor-7-1 {
+        margin-top: 500px;
+}
+
+.lift.floor-7-2 {
+        margin-top: 400px;
+}
+
+.lift.floor-7-3 {
+        margin-top: 300px;
+}
+
+.lift.floor-7-4 {
+        margin-top: 200px;
+}
+
+.lift.floor-7-5 {
+        margin-top: 100px;
+}
+
+.lift.floor-7-6 {
+        margin-top: 0px;
+}
+
+
+
+
+
+.lift.floor-8-0 {
+        margin-top: 700px;
+}
+
+.lift.floor-8-1 {
+        margin-top: 600px;
+}
+
+.lift.floor-8-2 {
+        margin-top: 500px;
+}
+
+.lift.floor-8-3 {
+        margin-top: 400px;
+}
+
+.lift.floor-8-4 {
+        margin-top: 300px;
+}
+
+.lift.floor-8-5 {
+        margin-top: 200px;
+}
+
+.lift.floor-8-6 {
+        margin-top: 100px;
+}
+
+.lift.floor-8-7 {
+        margin-top: 0px;
+}
+
+
+
+
+
+
+.lift.floor-9-0 {
+        margin-top: 800px;
+}
+
+.lift.floor-9-1 {
+        margin-top: 700px;
+}
+
+.lift.floor-9-2 {
+        margin-top: 600px;
+}
+
+.lift.floor-9-3 {
+        margin-top: 500px;
+}
+
+.lift.floor-9-4 {
+        margin-top: 400px;
+}
+
+.lift.floor-9-5 {
+        margin-top: 300px;
+}
+
+.lift.floor-9-6 {
+        margin-top: 200px;
+}
+
+.lift.floor-9-7 {
+        margin-top: 100px;
+}
+
+.lift.floor-9-8 {
+        margin-top: 0px;
+}
+
+
+
+
+.lift.floor-10-0 {
+        margin-top: 900px;
+}
+
+.lift.floor-10-1 {
+        margin-top: 800px;
+}
+
+.lift.floor-10-2 {
+        margin-top: 700px;
+}
+
+.lift.floor-10-3 {
+        margin-top: 600px;
+}
+
+.lift.floor-10-4 {
+        margin-top: 500px;
+}
+
+.lift.floor-10-5 {
+        margin-top: 400px;
+}
+
+.lift.floor-10-6 {
+        margin-top: 300px;
+}
+
+.lift.floor-10-7 {
+        margin-top: 200px;
+}
+
+.lift.floor-10-8 {
+        margin-top: 100px;
+}
+
+.lift.floor-10-9 {
+        margin-top: 0px;
+}
+
+/* end Floors*/
+
+.floors-container {
+        display: grid;
+        grid-auto-flow: row;
+}
+
+.floors-container>div {
+        justify-self: center;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        height: 100px;
+        width: 100px;
+        background-color: none;
+        text-align: center;
+        line-height: 100px;
+        font-size: 2em;
+}
+
+.floors-container div:last-child {
+        border-bottom: none;
+}
+
+.people-container {
+        display: grid;
+        grid-auto-flow: row;
+}
+
+.people-container>div {
+        justify-self: center;
+        border-bottom: 1px solid black;
+        height: 100px;
+        width: 600px;
+        background-color: none;
+}
+
+.people-container div:last-child {
+        border-bottom: none;
+}
+
+.people-floor-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: end;
+        /* gap: 50px; */
+        background-color: none;
+}
+
+.person-icon-wrapper {
+        font-size: 2.4rem;
+}
+
+.head {
+        width: 50px;
+        height: 60px;
+        border: 5px solid black;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: 21px;
+        left: 133px;
+        z-index: 1;
+        transform-origin: center bottom;
+}
+
+.torso {
+        width: 6px;
+        height: 100px;
+        border: 3px solid black;
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 156px;
+}
+
+.leftleg {
+        width: 6px;
+        height: 100px;
+        border: 3px solid black;
+        display: block;
+        position: absolute;
+        top: 175px;
+        left: 155px;
+        transform: rotate(12deg);
+        transform-origin: top;
+}
+
+.rightleg {
+        width: 6px;
+        height: 100px;
+        border: 3px solid black;
+        display: block;
+        position: absolute;
+        top: 175px;
+        left: 157px;
+        transform: rotate(-12deg);
+        transform-origin: top;
+}
+
+.leftarm {
+        width: 80px;
+        height: 6px;
+        border: 3px solid black;
+        display: block;
+        position: absolute;
+        top: 86px;
+        left: 77px;
+}
+
+.rightarm {
+        width: 80px;
+        height: 6px;
+        border: 3px solid black;
+        display: block;
+        position: absolute;
+        top: 86px;
+        left: 161px;
+}
+
+.leftfoot {
+        width: 30px;
+        height: 6px;
+        border: 3px solid black;
+        display: block;
+        position: absolute;
+        top: 270px;
+        left: 110px;
+        transform: rotate(8deg);
+}
+
+.rightfoot {
+        width: 30px;
+        height: 6px;
+        border: 3px solid black;
+        display: block;
+        position: absolute;
+        top: 270px;
+        left: 178px;
+        transform: rotate(-8deg);
+}
+
+.users-in-lift-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: end;
+        gap: 10px;
+        background-color: none;
+        margin-left: auto;
+}
+
+.lift-data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        background-color: none;
+        background-size: cover;
+        background-position: center;
+        gap: 100px;
+}
+
+.header-card {
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 1rem;
+        text-align: center;
+        border-radius: 16px;
+        overflow: hidden;
+        margin-top: 10px;
+}
+
+.card {
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 10px;
+        text-align: center;
+        border-radius: 16px;
+        overflow: hidden;
+}
+
+h1 {
+        color: black;
+        text-align: center;
+}
+
+.import-button {
+        border: none;
+        background-color: #515151;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 10px;
+}
+
+.confirm-button {
+        border: none;
+        background-color: #515151;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 10px;
+}
+
+.confirm-button:hover {
+        background: #6cf0c2;
+}
+
+.form-input {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+}
+
+input {
+        padding: 15px;
+        margin: 10px 0px;
+        border-radius: 5px;
+        border: 1px solid gray;
+}
+
+label {
+        font-size: 12px;
+        color: gray;
+        margin: 10px;
+}
+
+span {
+        font-size: 12px;
+        padding: 3px;
+        color: red;
+        display: none;
+}
+
+input:invalid[focused="true"] {
+        border: 1px solid red;
+}
+
+input:invalid[focused="true"]~span {
+        display: block;
+}
+
+
+
+.form-user-input {
+        display: flex;
+        flex-direction: row;
+        width: 28px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+}
+
+.form-inline {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+}
+
+.remove-button {
+        border: none;
+        background-color: #515151;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: 15px;
+        text-align: center;
+        padding: 10px;
+}
+
+.remove-button:hover {
+        background: #c03535;
+}
+
+.add-button {
+        border: none;
+        background-color: #515151;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 10px;
+}
+
+.add-button:hover {
+        background: #6cf0c2;
+}
+
+.lift-log-card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        max-height: 75vh;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 10px;
+        text-align: start;
+        border-radius: 16px;
+        overflow-y: scroll;
+        /* Firefox */
+        scrollbar-width: none;
+        /* Internet Explorer 10+ */
+        -ms-overflow-style: none;
+}
+
+.lift-log-card::-webkit-scrollbar {
+        /* WebKit */
+        width: 0;
+        height: 0;
+}
+
+.buttons-num-wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        background-color: none;
+        margin-left: 50px;
+}
+
+.num {
+        font-size: 40px;
+        margin-right: 50px
+}
+
+.lift-log-button,
+.start-animation-button,
+.reset-animation-button {
+        border: none;
+        background-color: #515151;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 5px;
+        text-align: center;
+        padding: 10px;
+}
+
+.lift-log-button:hover,
+.start-animation-button:hover,
+.reset-animation-button:hover,
+.import-button:hover {
+        background: #6cf0c2;
+}
+
+.db-error {
+        font-size: 12px;
+        padding: 3px;
+        color: red;
+}
